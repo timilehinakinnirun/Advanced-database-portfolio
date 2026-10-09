@@ -1,0 +1,58 @@
+[
+  {
+    "order_id": "ORD001",
+    "customer": {
+      "customer_id": 1,
+      "name": "Amina Bello",
+      "email": "amina.bello@email.com"
+    },
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Dell Inspiron Laptop",
+        "quantity": 1,
+        "unit_price": 750000
+      },
+      {
+        "product_id": 5,
+        "product_name": "Wireless Mouse",
+        "quantity": 2,
+        "unit_price": 25000
+      }
+    ],
+    "total_amount": 800000,
+    "payment": {
+      "method": "Card",
+      "status": "Paid"
+    },
+    "delivery": {
+      "address": "Lagos, Nigeria",
+      "status": "Preparing for Dispatch"
+    }
+  },
+  {
+    "order_id": "ORD002",
+    "customer": {
+      "customer_id": 2,
+      "name": "Daniel Okafor",
+      "email": "daniel.okafor@email.com"
+    },
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Mechanical Keyboard",
+        "quantity": 1,
+        "unit_price": 45000
+      }
+    ],
+    "total_amount": 45000,
+    "payment": {
+      "method": "Bank Transfer",
+      "status": "Paid"
+    },
+    "delivery": {
+      "address": "Abuja, Nigeria",
+      "status": "Processing"
+    }
+  }
+]
